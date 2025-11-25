@@ -1,0 +1,12 @@
+.container{
+    display:flex 2;
+}
+nav a{
+    flex:1;
+}
+.side{
+    flex:1;
+}
+#banner{
+    justify-content:center;
+}
