@@ -12,6 +12,12 @@ nav a{
 
   text-align:center;
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: blue;
+}
 nav{
     background-color: green;
 }
@@ -24,5 +30,5 @@ div, span{
 
 }
 a:hover{
-filter:grayscale(100%);
+filter:grayscale(20%);
 }
