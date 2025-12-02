@@ -1,8 +1,10 @@
+html{
+background-color: aquamarine;
+}
 .center{
     justify-content: center;
     align-items: center;
-    background-color: blue;
-    color:white;
+    background-color: red;
 }
 .container{
     display:flex;
@@ -33,3 +35,4 @@ div, span{
 a:hover{
 filter:grayscale(20%);
 }
+
