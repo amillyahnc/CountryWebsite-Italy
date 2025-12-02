@@ -1,10 +1,8 @@
-#div{
-    background-color: pink;
-}
 .center{
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 0, 21);
+    color:white;
 }
 .container{
     display:flex;
