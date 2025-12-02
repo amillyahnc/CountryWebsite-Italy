@@ -1,12 +1,28 @@
+.center{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 0, 21);
+}
 .container{
-    display:flex 2;
+    display:flex;
 }
 nav a{
-    flex:1;
+  flex:1;
+  color:black;
+
+  text-align:center;
 }
-.side{
-    flex:1;
+nav{
+    background-color: green;
 }
-#banner{
-    justify-content:center;
+h1{
+    font-style:italic;
+    justify-content: center;
+}
+div, span{
+    border:1px solid black;
+
+}
+a:hover{
+filter:grayscale(100%);
 }
