@@ -43,3 +43,10 @@ filter:grayscale(20%);
 #banner{
      background-color: red;
 }
+#footer{
+    background-color: black;
+    color:white;
+}
+#search{
+    background-color: white;
+}
