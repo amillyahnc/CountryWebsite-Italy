@@ -1,11 +1,13 @@
 html{
-background-color: yellowgreen;
+background-image:url("")
 }
 .container{
     display:flex;
+    background-color: white;
 }
 .container div{
     flex:1;
+    background-color: whitesmoke;
 }
 .center{
     justify-content: center;
@@ -16,7 +18,7 @@ nav a{
   color:black;
   text-decoration: none;
   text-align:center;
-  background-color: green;
+  background-color:yellowgreen;
 }
 a{
     text-decoration: none;
@@ -25,7 +27,7 @@ a:hover{
     background-color: blue;
 }
 nav{
-    background-color: green;
+    background-color: white;
     
 }
 h1{
@@ -41,12 +43,32 @@ a:hover{
 filter:grayscale(20%);
 }
 #banner{
-     background-color: red;
+     background-color: green;
+     color:white;
 }
 #footer{
-    background-color: black;
+    background-color: red;
     color:white;
 }
 #search{
     background-color: white;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+h2{
+    letter-spacing: 5px;
+}
+p{
+    text-align:right;
 }
